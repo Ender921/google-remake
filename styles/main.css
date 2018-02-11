@@ -1,0 +1,71 @@
+p {
+  font-family: roboto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: -webkit-fill-available;
+}
+
+.header {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-left {
+  text-align: left;
+  display: inline-block;
+}
+
+.header-item {
+  display: inline-grid;
+  font-family: roboto;
+  font-size: 13px;
+  margin: 5px;
+  vertical-align: middle;
+}
+
+.container {
+  min-height: inherit;
+  padding-bottom: 50px;
+
+}
+
+.footer {
+  background-color: rgba(0,0,0,.54);
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+}
+
+.logo-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sign-in-btn {
+  padding: 10px;
+  background-color: #4584f1;
+  color: white;
+  font-weight: bold;
+}
+
+.hover .sign-in-btn {
+  background-color: purple;
+}
